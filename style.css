@@ -1,0 +1,154 @@
+body{
+    background-color: white; 
+    font-family: Montserrat;
+}
+/*.container {
+    background-image: url(brooke-lark-HlNcigvUi4Q-unsplash.jpg);  #ecf5e1; 
+    background-size: contain;
+    opacity: 0.5;
+    z-index: -1; 
+ }   */
+
+header,nav ,main ,footer{
+    margin-bottom: 10px;
+    text-align: center;
+} 
+
+
+
+h1{
+    font-size: 3rem;
+    animation: runText 10s linear infinite alternate;
+}
+@keyframes runText {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+.header-list{
+    list-style: none;
+    text-align: left;
+}
+.header-list li{
+    display: inline-block;
+    margin-left: 30px;
+    text-shadow: #ecf5e1;
+    font-size: 15px;
+    color: green;
+
+}
+.header-div-list{
+    height: 2px;
+    margin-top:10px;
+
+}
+.inspiration-food-image ,.brands-food-image{
+    height: 300px;
+    width: 80%;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: underline;
+    color: green;
+}
+nav li:hover{
+    transform: scale(1.2);
+}
+
+section{
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+main article{
+    flex: 1;
+    margin: 20px;
+    
+}
+
+.main-article{
+    background-color: white;
+}
+.main-article :hover{
+    opacity: 0.5;
+   
+}
+
+
+article div{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: green;
+}
+article img{
+    height: 200px;
+    width: 300px;
+}
+
+
+
+footer{
+    display: flex;
+    text-decoration: underline;
+    margin-top: 20px;
+    border-top-style: solid;
+    border-top-color: green;
+    padding-top: 10px;
+}
+
+footer div{
+    flex: 1;
+}
+
+.div-footer-1{
+    text-align: left;
+    margin-left: 100px;
+}
+
+footer img{
+    height: 100px;
+    
+}
+footer p{
+    text-align: right;
+    margin-right: 10px;
+}
+.food-article img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.food-article p{
+    font-weight: 750;
+    transition: transform 0.3s ease;
+
+}
+
+.food-article:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+}
